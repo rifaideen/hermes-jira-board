@@ -23,17 +23,12 @@ A plugin for the **Hermes Agent** that allows you to view and filter your assign
 
 ## Installation
 
-1. Clone or copy this repository into your Hermes plugins directory:
-   ```bash
-   git clone https://github.com/rifaideen/hermes-jira-board.git ~/.hermes/plugins/hermes-jira-board
-   ```
-2. Ensure your Jira environment variables are set in your Hermes environment.
-3. Restart your Hermes Agent and Hermes Dashboard:
-   ```bash
-   hermes dashboard --stop
-   hermes dashboard
-   ```
-4. Open the Hermes Dashboard in your browser and click on **Hermes Jira Board** in the sidebar.
+1. Open the Hermes Agent Dashboard.
+2. Navigate to **Plugins** > **Install from Git URL**.
+3. Paste this URL: `https://github.com/rifaideen/hermes-jira-board`
+4. Enable the **Force reinstall (delete existing folder first)** and **Enable after install** options.
+5. Click the **Install** button.
+6. Restart Hermes and you are done!
 
 ## Usage
 
