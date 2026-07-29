@@ -1,0 +1,8 @@
+name: hermes-jira-board
+version: 1.0.0
+description: Lists Jira tickets assigned to you (last N months) via mcp-atlassian, in chat and on a dashboard page.
+author: Rifa
+provides_tools:
+  - list_my_jira_tickets
+provides_hooks:
+  - post_tool_call

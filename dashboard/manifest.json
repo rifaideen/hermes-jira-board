@@ -1,0 +1,13 @@
+{
+  "name": "hermes-jira-board",
+  "label": "Hermes Jira Board",
+  "description": "Tickets assigned to you, filterable up to the last 6 months or specific dates, and status.",
+  "icon": "FileText",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/hermes-jira-board",
+    "position": "after:skills"
+  },
+  "entry": "dist/index.js",
+  "api": "plugin_api.py"
+}
